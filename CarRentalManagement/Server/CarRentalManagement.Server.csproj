@@ -1,28 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>CarRentalManagement.Server-88ECF3A5-4DD6-42CC-B471-F789C9C7B5AB</UserSecretsId>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>CarRentalManagement.Server-88ECF3A5-4DD6-42CC-B471-F789C9C7B5AB</UserSecretsId>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.6" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.6" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Client\CarRentalManagement.Client.csproj" />
-    <ProjectReference Include="..\Shared\CarRentalManagement.Shared.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Client\CarRentalManagement.Client.csproj" />
+		<ProjectReference Include="..\Shared\CarRentalManagement.Shared.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.6" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.6" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.6" />
-    <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="6.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="6.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6" />
+	</ItemGroup>
 
-</Project>
+		</Project>
